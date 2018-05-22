@@ -1,0 +1,9 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: minmax(250px, 25%) auto;
+}
+.map-container {
+  display: grid;
+  grid-template-rows: 50px auto;
+  align-items: center;
+}

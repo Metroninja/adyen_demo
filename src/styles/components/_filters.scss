@@ -1,0 +1,17 @@
+.filters {
+  padding: 0 12px;
+  background-color: #FFF;
+  width: 100%;
+  h4 {
+    margin: 0;
+    margin-Right: 12px;
+  }
+  input { 
+    margin-left: 12px;
+  }
+  button {
+    background-color: $kelly-green;
+    color: #FFF;
+  }
+  display: flex;
+}

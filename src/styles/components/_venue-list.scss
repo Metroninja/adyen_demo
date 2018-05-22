@@ -1,0 +1,27 @@
+.venue-list {
+  min-width: 200px;
+  overflow-y: auto;
+  background-color: #FFF;
+  border-right: 2px solid $silver;
+
+  > h4 {
+    text-align: center;
+  }
+}
+.venue {
+  &.alt {
+    background-color: $light-gray;
+  }
+  h4 {
+    margin: 4px 0;
+  }
+  display: grid;
+  grid-template-columns: auto 20px;
+  align-items: center;
+  padding: 4px 12px;
+  .icon, .icon > svg {
+    fill: #868e96;
+    height: 22px;
+    justify-self: end;
+  }
+}

@@ -1,0 +1,53 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: minmax(250px, 25%) auto; }
+
+.map-container {
+  display: grid;
+  grid-template-rows: 50px auto;
+  align-items: center; }
+
+html, body, #root, .App {
+  height: 100%;
+  margin: 0; }
+
+.map {
+  background-color: #e6e6e6;
+  height: 100%;
+  overflow: hidden; }
+
+.filters {
+  padding: 0 12px;
+  background-color: #FFF;
+  width: 100%;
+  display: flex; }
+  .filters h4 {
+    margin: 0;
+    margin-Right: 12px; }
+  .filters input {
+    margin-left: 12px; }
+  .filters button {
+    background-color: #00b70c;
+    color: #FFF; }
+
+.venue-list {
+  min-width: 200px;
+  overflow-y: auto;
+  background-color: #FFF;
+  border-right: 2px solid #caccce; }
+  .venue-list > h4 {
+    text-align: center; }
+
+.venue {
+  display: grid;
+  grid-template-columns: auto 20px;
+  align-items: center;
+  padding: 4px 12px; }
+  .venue.alt {
+    background-color: #f6f6f6; }
+  .venue h4 {
+    margin: 4px 0; }
+  .venue .icon, .venue .icon > svg {
+    fill: #868e96;
+    height: 22px;
+    justify-self: end; }
